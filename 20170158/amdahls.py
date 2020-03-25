@@ -26,9 +26,9 @@ def separation(cantidad,matriz):
     for i in hilos:
         i.join()
     print("RESULTADO")
-    print(matriz[:,2])
+    print(matriz[:,2],"\n")
     final = time.time() - comienzo
-    print("DURACIÓN: ",final)
+    print("DURACIÓN: ",final," segundos.\n\n")
 
 
 print("UTILIZANDO 1 HILOS")
